@@ -1,31 +1,37 @@
-.item {
-  width: 50%;
-}
-.link {
+/* Write your CSS here */
+.list-item {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  height: 180px;
+  width: 40%;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 10px;
   background-color: #ffffff33;
-  height: 85%;
-  border-radius: 12px;
-  border: 1px solid #ffffff;
-  padding-left: 7px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-right: 7px;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 24px;
-  text-decoration: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 12px;
 }
-.item-name {
-  font-size: 28px;
+
+.link {
   text-decoration: none;
-  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.ipl-item-logo {
+
+.image-url {
+  width: auto;
   height: 80px;
 }
 
-
-
-
+.card-heading {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
